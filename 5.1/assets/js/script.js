@@ -45,28 +45,6 @@ var saveTasks = function() {
   localStorage.setItem("tasks", JSON.stringify(tasks));
 };
 
-  // console.log("<p> was clicked");
-  /*
-  var text = $(this).text();
-  console.log(text);
-
-  The text() method will get the inner text content of the current element, represented by $(this). The text() method often works with the trim() method to remove any extra white space before or after. Many jQuery methods can be chained together, such as text().trim().
-
-  $(".list-group").on("click", "p", function() {
-  var text = $(this)
-    .text()
-    .trim();
-});
-
-JavaScript can recognize chained methods whether or not they're on the same line. The following examples both work:
-
-var text = $(this).text().trim();
-
-var text = $(this)
- .text()
- .trim();
-  */
-
 
 
 
